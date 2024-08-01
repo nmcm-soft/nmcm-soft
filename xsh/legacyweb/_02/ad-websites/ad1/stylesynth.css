@@ -1,0 +1,63 @@
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	height: 100%;
+	background-color: #a2a4a6;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	/*background-image: url("nebulabg.png");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+hr {
+	position: relative;
+	top:20px;
+	border:4px inset white;
+	background:black;
+	margin-bottom: 50px;
+}
+.sidebar{
+	background-color: darkred;
+	overflow: hidden;
+	width: 200px;
+	float: left;
+
+  background-image: linear-gradient(to right, red,darkred,darkred,darkred,darkred,darkred);
+   	border: 2px inset #7A99AE;
+  	padding:1%;
+  	height: 100%;
+
+  }
+.content{
+	background-color: blue;
+	overflow: hidden;
+	width: 800px;
+	border: 2px inset #7A99AE;
+	margin: 0 auto;
+	border-radius: 20px;
+  	background-image: linear-gradient(to bottom right, darkblue, lightblue);
+}
+.wrapper{
+	position: relative;
+	height: 100%;
+
+}
+.fake-button{
+	color:white;
+	font-family: sans-serif;
+	padding:4px;
+	background-color: darkred;
+	border:2px outset black;
+	max-width: 50px;
+}
+.fake-button:hover{
+	border:2px inset black;
+}
+.advertisement{
+
+}
+.advertisement:hover{
+}
